@@ -1,0 +1,2 @@
+vhdl work "sdram.vhd"
+vhdl work "CacheController.vhd"

@@ -1,0 +1,437 @@
+Release 13.4 - xst O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: SDRAMController.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SDRAMController.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SDRAMController"
+Output Format                      : NGC
+Target Device                      : xc3s500e-5-fg320
+
+---- Source Options
+Top Module Name                    : SDRAMController
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd" in Library work.
+Architecture behavioral of Entity sdramcontroller is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <SDRAMController> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <SDRAMController> in library <work> (Architecture <behavioral>).
+Entity <SDRAMController> analyzed. Unit <SDRAMController> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <SDRAMController>.
+    Related source file is "/home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd".
+WARNING:Xst:647 - Input <ADDR<15:8>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Using one-hot encoding for signal <counter>.
+    Found 8-bit register for signal <DOUT>.
+    Found 2-bit register for signal <counter>.
+    Found 8-bit 32-to-1 multiplexer for signal <DOUT$mux0000> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0001> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0002> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0003> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0004> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0005> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0006> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0007> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0008> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0009> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0010> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0011> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0012> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0013> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0014> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0015> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0016> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0017> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0018> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0019> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0020> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0021> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0022> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0023> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0024> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0025> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0026> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0027> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0028> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0029> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0030> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0031> created at line 58.
+    Found 8-bit 8-to-1 multiplexer for signal <DOUT$mux0032> created at line 58.
+    Found 256-bit register for signal <RAM_SIG<0>>.
+    Found 256-bit register for signal <RAM_SIG<1>>.
+    Found 256-bit register for signal <RAM_SIG<2>>.
+    Found 256-bit register for signal <RAM_SIG<3>>.
+    Found 256-bit register for signal <RAM_SIG<4>>.
+    Found 256-bit register for signal <RAM_SIG<5>>.
+    Found 256-bit register for signal <RAM_SIG<6>>.
+    Found 256-bit register for signal <RAM_SIG<7>>.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<0>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<1>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<2>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<3>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<4>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<5>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<6>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+INFO:Xst:738 - HDL ADVISOR - 256 flip-flops were inferred for signal <RAM_SIG<7>>. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+    Summary:
+	inferred 2058 D-type flip-flop(s).
+	inferred 264 Multiplexer(s).
+Unit <SDRAMController> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 258
+ 2-bit register                                        : 1
+ 8-bit register                                        : 257
+# Multiplexers                                         : 33
+ 8-bit 32-to-1 multiplexer                             : 1
+ 8-bit 8-to-1 multiplexer                              : 32
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1426 - The value init of the FF/Latch counter_0 hinder the constant cleaning in the block SDRAMController.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:2677 - Node <counter_1> of sequential type is unconnected in block <SDRAMController>.
+WARNING:Xst:2677 - Node <counter_1> of sequential type is unconnected in block <SDRAMController>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 2057
+ Flip-Flops                                            : 2057
+# Multiplexers                                         : 33
+ 8-bit 32-to-1 multiplexer                             : 1
+ 8-bit 8-to-1 multiplexer                              : 32
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch counter_0 hinder the constant cleaning in the block SDRAMController.
+   You should achieve better results by setting this init to 0.
+
+Optimizing unit <SDRAMController> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SDRAMController, actual ratio is 43.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2057
+ Flip-Flops                                            : 2057
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : SDRAMController.ngr
+Top Level Output File Name         : SDRAMController
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 35
+
+Cell Usage :
+# BELS                             : 4659
+#      BUF                         : 8
+#      GND                         : 1
+#      LUT2                        : 6
+#      LUT3                        : 2092
+#      LUT4                        : 1568
+#      MUXF5                       : 528
+#      MUXF6                       : 264
+#      MUXF7                       : 128
+#      MUXF8                       : 64
+# FlipFlops/Latches                : 2057
+#      FDE                         : 2057
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 18
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-5 
+
+ Number of Slices:                     2029  out of   4656    43%  
+ Number of Slice Flip Flops:           2057  out of   9312    22%  
+ Number of 4 input LUTs:               3666  out of   9312    39%  
+ Number of IOs:                          35
+ Number of bonded IOBs:                  27  out of    232    11%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 2057  |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.218ns (Maximum Frequency: 191.644MHz)
+   Minimum input arrival time before clock: 8.507ns
+   Maximum output required time after clock: 4.040ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.218ns (frequency: 191.644MHz)
+  Total number of paths / destination ports: 4097 / 2057
+-------------------------------------------------------------------------
+Delay:               5.218ns (Levels of Logic = 8)
+  Source:            RAM_SIG<0>_0_0 (FF)
+  Destination:       DOUT_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: RAM_SIG<0>_0_0 to DOUT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.514   0.426  RAM_SIG<0>_0_0 (RAM_SIG<0>_0_0)
+     LUT3:I1->O            1   0.612   0.000  Mmux_DOUT_mux0000_172 (Mmux_DOUT_mux0000_172)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_DOUT_mux0000_15_f5_1 (Mmux_DOUT_mux0000_15_f52)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_DOUT_mux0000_13_f6_1 (Mmux_DOUT_mux0000_13_f62)
+     MUXF7:I0->O           1   0.451   0.000  Mmux_DOUT_mux0000_11_f7_1 (Mmux_DOUT_mux0000_11_f72)
+     MUXF8:I0->O           1   0.451   0.426  Mmux_DOUT_mux0000_9_f8_1 (Mmux_DOUT_mux0000_9_f82)
+     LUT3:I1->O            1   0.612   0.000  Mmux_DOUT_mux0000_6 (Mmux_DOUT_mux0000_6)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_DOUT_mux0000_4_f5 (Mmux_DOUT_mux0000_4_f5)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_DOUT_mux0000_2_f6 (DOUT_mux0000<0>)
+     FDE:D                     0.268          DOUT_0
+    ----------------------------------------
+    Total                      5.218ns (4.366ns logic, 0.852ns route)
+                                       (83.7% logic, 16.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 45064 / 4112
+-------------------------------------------------------------------------
+Offset:              8.507ns (Levels of Logic = 10)
+  Source:            ADDR<5> (PAD)
+  Destination:       DOUT_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: ADDR<5> to DOUT_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           430   1.106   1.180  ADDR_5_IBUF (ADDR_5_IBUF)
+     BUF:I->O            430   0.612   1.332  ADDR_5_IBUF_1 (ADDR_5_IBUF_1)
+     LUT3:I0->O            1   0.612   0.000  Mmux_DOUT_mux0000_179 (Mmux_DOUT_mux0000_179)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_DOUT_mux0000_15_f5_7 (Mmux_DOUT_mux0000_15_f58)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_DOUT_mux0000_13_f6_6 (Mmux_DOUT_mux0000_13_f67)
+     MUXF7:I0->O           1   0.451   0.000  Mmux_DOUT_mux0000_11_f7_5 (Mmux_DOUT_mux0000_11_f76)
+     MUXF8:I0->O           1   0.451   0.426  Mmux_DOUT_mux0000_9_f8_4 (Mmux_DOUT_mux0000_9_f85)
+     LUT3:I1->O            1   0.612   0.000  Mmux_DOUT_mux0000_61 (Mmux_DOUT_mux0000_61)
+     MUXF5:I0->O           1   0.278   0.000  Mmux_DOUT_mux0000_4_f5_0 (Mmux_DOUT_mux0000_4_f51)
+     MUXF6:I0->O           1   0.451   0.000  Mmux_DOUT_mux0000_2_f6_0 (DOUT_mux0000<1>)
+     FDE:D                     0.268          DOUT_1
+    ----------------------------------------
+    Total                      8.507ns (5.570ns logic, 2.937ns route)
+                                       (65.5% logic, 34.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.040ns (Levels of Logic = 1)
+  Source:            DOUT_7 (FF)
+  Destination:       DOUT<7> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: DOUT_7 to DOUT<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.514   0.357  DOUT_7 (DOUT_7)
+     OBUF:I->O                 3.169          DOUT_7_OBUF (DOUT<7>)
+    ----------------------------------------
+    Total                      4.040ns (3.683ns logic, 0.357ns route)
+                                       (91.2% logic, 8.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 19.05 secs
+ 
+--> 
+
+
+Total memory usage is 714616 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

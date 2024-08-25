@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.xst" -ofn "/home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.syr" 

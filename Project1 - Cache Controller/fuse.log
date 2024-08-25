@@ -1,0 +1,22 @@
+Running: /CMC/tools/xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/student2/aacharya/Desktop/COE758/lab_project_1/TEST_isim_beh.exe -prj /home/student2/aacharya/Desktop/COE758/lab_project_1/TEST_beh.prj work.TEST 
+ISim O.87xd (signature 0x8ddf5b5d)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/student2/aacharya/Desktop/COE758/lab_project_1/sdram1.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "/home/student2/aacharya/Desktop/COE758/lab_project_1/sdram1.vhd" Line 74: <cachecontroller> remains a black-box since it has no binding entity.
+Completed static elaboration
+Fuse Memory Usage: 120196 KB
+Fuse CPU Usage: 830 ms
+WARNING:Simulator:648 - "/home/student2/aacharya/Desktop/COE758/lab_project_1/sdram1.vhd" Line 74. Instance cachecontroller is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavior of entity test
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 VHDL Units
+Built simulation executable /home/student2/aacharya/Desktop/COE758/lab_project_1/TEST_isim_beh.exe
+Fuse Memory Usage: 1210188 KB
+Fuse CPU Usage: 860 ms
+GCC CPU Usage: 210 ms

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/student2/aacharya/Desktop/COE758/lab_project_1/SDRAMController.xst" -ofn "/home/student2/aacharya/Desktop/COE758/lab_project_1/SDRAMController.syr" 
+netgen -intstyle ise -ar Structure -tm SDRAMController -w -dir netgen/synthesis -ofmt vhdl -sim SDRAMController.ngc SDRAMController_synthesis.vhd 
