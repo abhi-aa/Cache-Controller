@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd</arg>&quot; line <arg fmt="%d" index="2">134</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">CPU_gen</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd</arg>&quot; line <arg fmt="%d" index="2">136</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">SRAM</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd</arg>&quot; line <arg fmt="%d" index="2">137</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">icon</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2211" delta="new" >&quot;<arg fmt="%s" index="1">/home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd</arg>&quot; line <arg fmt="%d" index="2">138</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">ila</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">ADDR&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;0&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;1&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;2&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;3&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;4&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;5&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;6&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">RAM_SIG&lt;7&gt;</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">trig0&lt;0&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">offset</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">ila_data&lt;99&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">0</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="new" >The value init of the FF/Latch <arg fmt="%s" index="1">counter_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">SDRAM</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAM</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="new" >The small RAM &lt;<arg fmt="%s" index="1">Mram_Memory_TAG</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">counter_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">SDRAMController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1426" delta="old" >The value init of the FF/Latch <arg fmt="%s" index="1">counter_0</arg> hinder the constant cleaning in the block <arg fmt="%s" index="2">SDRAMController</arg>.
+You should achieve better results by setting this init to <arg fmt="%i" index="3">0</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">index_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">index_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">index_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">cpu_tag_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">CacheController</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;SDRAM_ADD_9&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SDRAM_OFFSET_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">CacheController</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">CS</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">WR_RD</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;15&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;14&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;13&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;12&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;11&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;10&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;9&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;8&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;7&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">ADDR&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">CPU_gen</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;7&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;6&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;5&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;4&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;3&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;2&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;1&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SRAM_DOUT&lt;0&gt;</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">SRAM</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+</messages>
+

@@ -1,0 +1,28 @@
+Command line:
+   SDRAMController_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  44572
+
+Tue Oct 24 14:17:03 2023
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 215.196 Meg
+
+ Total Signals          : 8
+ Total Nets             : 2084
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 3
+ Total Processes        : 1
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 2567
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 290.693 Meg
+
+Tue Oct 24 14:25:14 2023
+

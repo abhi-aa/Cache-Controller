@@ -1,0 +1,6 @@
+EN sdram NULL /home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd sub00/vhpl00 1696979602
+EN cachecontroller NULL /home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd sub00/vhpl04 1698247270
+EN sdramcontroller NULL /home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd sub00/vhpl02 1698247268
+AR sdram behavioral /home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd sub00/vhpl01 1696979603
+AR cachecontroller behavioral /home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd sub00/vhpl05 1698247271
+AR sdramcontroller behavioral /home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd sub00/vhpl03 1698247269

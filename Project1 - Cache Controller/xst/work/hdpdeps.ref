@@ -1,0 +1,16 @@
+V3 11
+FL /home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd 2023/10/25.11:20:57 O.87xd
+EN work/CacheController 1698247270 \
+      FL /home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/CacheController/Behavioral 1698247271 \
+      FL /home/student2/aacharya/Desktop/COE758/lab_project_1/CacheController.vhd \
+      EN work/CacheController 1698247270 CP CPU_gen CP SDRAMController CP SRAM \
+      CP icon CP ila
+FL /home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd 2023/10/24.13:59:28 O.87xd
+EN work/SDRAMController 1698247268 \
+      FL /home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd \
+      PB ieee/std_logic_1164 1325952872 PB ieee/NUMERIC_STD 1325952877
+AR work/SDRAMController/Behavioral 1698247269 \
+      FL /home/student2/aacharya/Desktop/COE758/lab_project_1/sdram.vhd \
+      EN work/SDRAMController 1698247268
